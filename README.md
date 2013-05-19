@@ -1,6 +1,6 @@
 # 來龍去脈
 
-剛上完 code school 的 sass 課程的菜鳥我因為被 [clkao](https://twitter.com/clkao) 推坑的緣故，正在替 [ttcat](https://plus.google.com/u/0/112041531514953102862/) 做的 [綠盟的選區立委小網頁](http://gcaa.org.tw/callnow.php) 寫前端頁面，請各路神明多多指教 = ="
+這是隸屬於 [g0v.tw 零時政府黑客松](http://g0v.tw/) 的小專案，剛上完 code school 的 sass 課程的菜鳥我因為被 [clkao](https://twitter.com/clkao) 推坑的緣故，正在替 [ttcat](https://plus.google.com/u/0/112041531514953102862/) 做的 [綠盟的選區立委小網頁](http://gcaa.org.tw/callnow.php) 寫前端頁面，請各路神明多多指教 = ="
 
 # 目前進度
 
