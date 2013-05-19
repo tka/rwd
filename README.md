@@ -4,13 +4,15 @@
 
 # 目前進度
 
-用 Fire.app 開了 compass-h5bp 的專案（因為有現成的 html 可以改，門檻比較低 XD）一邊上 google 查 html5 語法一邊改來改去中 = ="
+* 用 Fire.app 開了 compass-h5bp 的專案（因為有現成的 html 可以改，門檻比較低 XD）一邊上 google 查 html5 語法一邊改來改去中 = ="
+* 完成手機版 css，接著要做桌面版 css 和 media query
 
 # 現有成果
 
-* 剛改完 [index.html](https://github.com/ETBlue/rwd/blob/master/index.html)
-* 準備開始寫 [sass/main.sass](https://github.com/ETBlue/rwd/blob/master/sass/main.sass)
-* 設計稿放在 [google docs 資料夾](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZOTJjTkJGckZSWkk/edit)
+* 改完 [index.html](https://github.com/ETBlue/rwd/blob/master/index.html)
+* 寫完 [sass/main.scss](https://github.com/ETBlue/rwd/blob/master/sass/main.sass)
+* 放到 [github page](http://etblue.github.io/rwd/) （其實是 tkalu 幫我放的 XDXD）
+* 設計稿在 [google docs 資料夾](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZOTJjTkJGckZSWkk/edit)
 
 # 技術指導
 
