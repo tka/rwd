@@ -1,63 +1,18 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+# 來龍去脈
 
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
+剛上完 code school 的 sass 課程的菜鳥我因為被 [clkao](https://twitter.com/clkao) 推坑的緣故，正在替 [ttcat](https://plus.google.com/u/0/112041531514953102862/) 做的 [綠盟的選區立委小網頁](http://gcaa.org.tw/callnow.php) 寫前端頁面，請各路神明多多指教 = ="
 
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
+# 目前進度
 
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
+用 Fire.app 開了 compass-h5bp 的專案（因為有現成的 html 可以改，門檻比較低 XD）一邊上 google 查 html5 語法一邊改來改去中 = ="
 
+# 現有成果
 
-## Quick start
+* 剛改完 [index.html](https://github.com/ETBlue/rwd/blob/master/index.html)
+* 準備開始寫 [sass/main.sass](https://github.com/ETBlue/rwd/blob/master/sass/main.sass)
+* 設計稿放在 [google docs 資料夾](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZOTJjTkJGckZSWkk/edit)
 
-Choose one of the following options:
+# 技術指導
 
-1. Download the latest stable release from
-   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
-   [Initializr](http://www.initializr.com).
-2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
-   release you'd like to use.
+持續騷擾 [leo](https://twitter.com/sillyleo), [hlb](https://twitter.com/hlb) 以及 [tkalu](https://twitter.com/tkalu) 中 XD
 
-
-## Features
-
-* HTML5 ready. Use the new elements with confidence.
-* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
-* Designed with progressive enhancement in mind.
-* Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
-  normalizations and common bug fixes.
-* The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
-* The latest [Modernizr](http://modernizr.com/) build for feature detection.
-* IE-specific classes for easier cross-browser control.
-* Placeholder CSS Media Queries.
-* Useful CSS helpers.
-* Default print CSS, performance optimized.
-* Protection against any stray `console.log` causing JavaScript errors in
-  IE6/7.
-* An optimized Google Analytics snippet.
-* Apache server caching, compression, and other configuration defaults for
-  Grade-A performance.
-* Cross-domain Ajax and Flash.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
-
-
-## Documentation
-
-Take a look at the [documentation table of
-contents](/h5bp/html5-boilerplate/blob/master/doc/TOC.md). This
-documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation
-you want to write about your project.
-
-
-## Contributing
-
-Anyone and everyone is welcome to
-[contribute](/h5bp/html5-boilerplate/blob/master/CONTRIBUTING.md). Hundreds
-of developers have helped make the HTML5 Boilerplate what it is today.
