@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [HTML5 Boilerplate homepage](http://html5boilerplate.com)
 
 # HTML5 Boilerplate documentation:
@@ -34,3 +35,5 @@ of your site/app in various production environments.
   feature-rich [grunt](https://github.com/cowboy/grunt) plugin.
 * [Ant build script](https://github.com/h5bp/ant-build-script) — The original
   HTML5 Boilerplate build script.
+=======
+>>>>>>> gh-pages
