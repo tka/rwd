@@ -46,9 +46,9 @@ a {
   color: #333;
   @include border-radius(5px);
   @include box-shadow(rgba(#000, 0.1) 0 1px 5px);
-  @include background-image(linear-gradient(rgba(#fff,1), rgba(#eee,1)));
 
   &:link {
+    @include background-image(linear-gradient(rgba(#fff,1), rgba(#f9f9f9,1)));
   }
 
   &:visited {
@@ -348,6 +348,12 @@ li {
     display: inline-block;
     padding: 0.4rem;
     margin: 0.1rem;
+    position: relative;
+  }
+
+  .address {
+    display: block;
+    margin-right: 1.5rem;
   }
 }
 
@@ -405,7 +411,9 @@ li {
 }
 .icon-map:before {
   content: "\e003";
-  margin-left: 0.5rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
 }
 .icon-location:before {
   content: "\e004";

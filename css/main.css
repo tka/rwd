@@ -70,11 +70,14 @@ a {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 5px;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 5px;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #eeeeee));
-  background-image: -webkit-linear-gradient(#ffffff, #eeeeee);
-  background-image: -moz-linear-gradient(#ffffff, #eeeeee);
-  background-image: -o-linear-gradient(#ffffff, #eeeeee);
-  background-image: linear-gradient(#ffffff, #eeeeee);
+}
+/* line 50, ../sass/main.scss */
+a:link {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f9f9f9));
+  background-image: -webkit-linear-gradient(#ffffff, #f9f9f9);
+  background-image: -moz-linear-gradient(#ffffff, #f9f9f9);
+  background-image: -o-linear-gradient(#ffffff, #f9f9f9);
+  background-image: linear-gradient(#ffffff, #f9f9f9);
 }
 /* line 54, ../sass/main.scss */
 a:visited {
@@ -433,21 +436,27 @@ li .no-link {
   display: inline-block;
   padding: 0.4rem;
   margin: 0.1rem;
+  position: relative;
+}
+/* line 354, ../sass/main.scss */
+li .address {
+  display: block;
+  margin-right: 1.5rem;
 }
 
 /* last section: g0v.tw support*/
-/* line 356, ../sass/main.scss */
+/* line 362, ../sass/main.scss */
 #credit {
   background-color: #000;
   padding: 0 1rem;
 }
-/* line 360, ../sass/main.scss */
+/* line 366, ../sass/main.scss */
 #credit a {
   padding: 0.5rem;
   float: right;
   background: none;
 }
-/* line 366, ../sass/main.scss */
+/* line 372, ../sass/main.scss */
 #credit .credit {
   max-width: 2rem;
   max-height: 2rem;
@@ -462,7 +471,7 @@ li .no-link {
   font-style: normal;
 }
 
-/* line 385, ../sass/main.scss */
+/* line 391, ../sass/main.scss */
 .icon-loop, .icon-loop-2, .icon-spinner, .icon-map, .icon-location, .icon-phone, .icon-search, .icon-target, .icon-checkmark, .icon-pencil {
   font-family: 'icomoon';
   speak: none;
@@ -475,44 +484,46 @@ li .no-link {
   font-size: 0.9rem;
 }
 
-/* line 397, ../sass/main.scss */
+/* line 403, ../sass/main.scss */
 .icon-loop:after {
   content: "\e000";
 }
 
-/* line 400, ../sass/main.scss */
+/* line 406, ../sass/main.scss */
 .icon-loop-2:before {
   content: "\e001";
 }
 
-/* line 403, ../sass/main.scss */
+/* line 409, ../sass/main.scss */
 .icon-spinner:before {
   content: "\e002";
 }
 
-/* line 406, ../sass/main.scss */
+/* line 412, ../sass/main.scss */
 .icon-map:before {
   content: "\e003";
-  margin-left: 0.5rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
 }
 
-/* line 410, ../sass/main.scss */
+/* line 418, ../sass/main.scss */
 .icon-location:before {
   content: "\e004";
 }
 
-/* line 413, ../sass/main.scss */
+/* line 421, ../sass/main.scss */
 .icon-phone:before {
   content: "\e005";
   margin-left: 0.5rem;
 }
 
-/* line 417, ../sass/main.scss */
+/* line 425, ../sass/main.scss */
 .icon-search:before {
   content: "\e006";
 }
 
-/* line 420, ../sass/main.scss */
+/* line 428, ../sass/main.scss */
 .icon-target:before {
   content: "\e007";
   color: #999;
@@ -520,12 +531,12 @@ li .no-link {
   width: 1rem;
 }
 
-/* line 426, ../sass/main.scss */
+/* line 434, ../sass/main.scss */
 .icon-checkmark:before {
   content: "\e008";
 }
 
-/* line 429, ../sass/main.scss */
+/* line 437, ../sass/main.scss */
 .icon-pencil:before {
   content: "\e009";
 }
