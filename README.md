@@ -10,7 +10,11 @@
 # 現有成果
 
 * 改完 [index.html](https://github.com/ETBlue/rwd/blob/master/index.html)
+<<<<<<< HEAD
 * 寫完 [sass/main.scss](https://github.com/ETBlue/rwd/blob/master/sass/main.scss)
+=======
+* 寫完 [sass/main.scss](https://github.com/ETBlue/rwd/blob/master/sass/main.sass)
+>>>>>>> gh-pages
 * 放到 [github page](http://etblue.github.io/rwd/) （其實是 tkalu 幫我放的 XDXD）
 * 設計稿在 [google docs 資料夾](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZOTJjTkJGckZSWkk/edit)
 
