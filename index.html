@@ -23,7 +23,9 @@
         <!-- Add your site or application content here -->
 
         <header id="geolocation">
+            <span aria-hidden="true" class="icon-target"></span>
             <p>台北市大同區（第 3 選區）</p>
+            <a href="#" class="manual"><span aria-hidden="true" class="icon-loop"></span><span class="screen-reader-text">手動定位</span></a>
         </header>
 
         <section itemscope itemtype="http://data-vocabulary.org/Person">
@@ -32,7 +34,7 @@
                 <img itemprop="photo" src="img/羅淑蕾.jpg" class="photo" />
                 <div class="legislator">
                     <h1 itemprop="name">羅淑蕾</h1>
-                    <aside class="party">國民黨</aside>
+                    <aside class="party icons-party-kmt">國民黨</aside>
                 </div>
                 <div class="standpoint nuke">
                     <p>擁核</p>
@@ -47,16 +49,24 @@
                 <p>「不會拉！」</p>
             </article>
 
-            <footer id="contact">
+            <article id="contact">
                 <h2>國會研究室</h2>
                 <ul>
-                    <li><span class="contact tel">電話</span><a itemprop="tel" href="tel:02-2358-6156" class="data">02-2358-6156</a></li>
-                    <li><span class="contact fax">傳真</span><a itemprop="fax" class="data">02-2358-6160</a></li>
-                    <li><span class="contact address">地址</span><a itemprop="address" href="https://maps.google.com.tw/?q=10051臺北市中正區濟南路1段3-1號0406室" class="data">10051臺北市中正區濟南路1段3-1號0406室</a></li>
+                    <li><span class="contact">電話</span><span class="data"><a itemprop="tel" href="tel:02-2358-6156">02-2358-6156<span aria-hidden="true" class="icon-phone"></span></a></span></li>
+                    <li><span class="contact">傳真</span><span class="data" itemprop="fax"><span class="no-link">02-2358-6160</span></span></li>
+                    <li><span class="contact">地址</span><span class="data"><a itemprop="address" href="https://maps.google.com.tw/?q=10051臺北市中正區濟南路1段3-1號0406室">10051臺北市中正區濟南路1段3-1號0406室<span aria-hidden="true" class="icon-map"></span></a></span></li>
                 </ul>
-            </footer>
+            </article>
 
         </section>
+
+        <footer id="credit">
+            <address>
+                <a href="http://g0v.tw">
+                    <img src="img/g0v-full-white.png" alt="g0v.tw 零時政府黑客松" class="credit" />
+                </a>
+            </address>
+        </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
