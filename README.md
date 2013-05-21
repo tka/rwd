@@ -35,9 +35,7 @@
 
 ### 現有成果
 
-* 改完 [index.html](https://github.com/ETBlue/rwd/blob/master/index.html)
-* 寫完 [sass/main.scss](https://github.com/ETBlue/rwd/blob/master/sass/main.sass)
-* 放到 [github page](http://etblue.github.io/rwd/) （其實是 tkalu 幫我放的 XDXD）
+* 手機版網頁放在 [github page](http://etblue.github.io/rwd/) （其實是 tkalu 幫我放的 XDXD）
 * 設計稿在 [google docs 資料夾](https://docs.google.com/folder/d/0B0NsS2a-Qx8ZOTJjTkJGckZSWkk/edit)
 
 ### 技術指導
