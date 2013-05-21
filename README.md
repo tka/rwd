@@ -18,12 +18,12 @@
 * 使用 mobile first 流程
 * 使用 windows journal + thinkpad x220t tablet 手繪概念草圖
 * 使用快停產但很好用的 adobe fireworks 進行介面與視覺設計
-* 使用 html5 boilerplate 起頭
+* 使用 [html5 boilerplate](http://html5boilerplate.com/) 起頭
 * 使用剛學會的 html5 + css3 撰寫網頁
 * 使用剛學會的 sass + compass 撰寫 css
-* 使用 fire.app 整合開發環境，在多種裝置上即時預覽
-* 學會新技能：icon fonts XD
-* 準備開始學 zepto.js 製作互動效果
+* 使用 [fire.app](http://fireapp.handlino.com/) 整合開發環境，在多種裝置上即時預覽
+* 使用 [icomoon](http://icomoon.io/app/) 製作 icon fonts
+* 準備開始學 [zepto.js](http://zeptojs.com/) 製作互動效果
 * 使用 git 做版本控管
 * 使用 github pages 呈現目前結果
 * 使用 tkalu 解決各種疑難雜症
