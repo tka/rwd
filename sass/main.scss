@@ -4,8 +4,6 @@
 @import "icons/*.png";
 @include all-icons-sprites;
 
-//@import "icon-fonts";
-
 /* selectors from default h5bp */
 
 nav,
@@ -320,10 +318,17 @@ textarea {
 
 #contact {
   @include background-image(linear-gradient(#e9e9e9, #f9f9f9));
+  h2 {
+    padding: 0.5rem 0 .5rem 0;
+    border-bottom: 1px #999 solid;
+    &:not(:first-child) {
+      padding-top: 1rem;
+    }
+  }
 }
 
 ul {
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   padding: 0;
 }
 
